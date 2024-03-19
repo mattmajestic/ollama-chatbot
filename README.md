@@ -1,0 +1,2 @@
+# ollama
+Ollama Docker Setup
