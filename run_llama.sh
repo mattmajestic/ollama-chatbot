@@ -17,4 +17,5 @@ done
 echo -e "\n"
 
 echo -e "${GREEN}🏃 Start Chatting...${NC}"
-docker exec -it ollama-test-1 ollama run llama2
+container_name=$(docker ps --format '{{.Names}}' | grep 'ollama')
+docker exec -it $container_name ollama run llama2
