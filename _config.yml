@@ -21,17 +21,9 @@ description: Free Ollama Chatbot with Docker Compose
 url: "https://your-github-username.github.io" # replace with your GitHub Pages URL
 baseurl: "/ollama" # replace with your repo name
 
-theme: minimal-mistakes-jekyll
-
 # Enable the dark skin.
 minimal_mistakes_skin: "dark"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-paginate
